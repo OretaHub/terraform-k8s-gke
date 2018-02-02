@@ -5,17 +5,23 @@
 
 #### Install theses tools
 
-### [gcloud](https://cloud.google.com/sdk/docs/quickstart-macos)
+### Google SDK
 
+> **gcloud**
 
-> **app-engine-python**  ```gcloud components install app-engine-python```
->
-> **kubectl** ```gcloud components install app-engine-python```
->
+ >Link : [gcloud docs](https://cloud.google.com/sdk/docs/)
+
+ >**app-engine-python**
+
+ >Command : ```gcloud components install app-engine-python```
+
+>**kubectl**
+
+>command : ```gcloud components install kubectl```
+
 
 ### Install Terraform
-> ```curl -O https://releases.hashicorp.com/terraform/0.11.2/terraform_0.11.2_darwin_amd64.zip\?_ga\=2.187257576.1199271896.1516169701-677746182.1510952834```
->
+> https://www.terraform.io/downloads.html
 
 ### Authentication JSON File
 >
@@ -25,11 +31,11 @@
 >
 1. Log into the Google developer's Console and select a project.
 >
-1. The API Manager view should be selected, click on "Credentials" on the left, then "Create credentials", and finally "Service account key".
+2. The API Manager view should be selected, click on "Credentials" on the left, then "Create credentials", and finally "Service account key".
 >
-1.  Select "Compute Engine default service account" in the "Service account" dropdown, and select "JSON" as the key type.
+3.  Select "Compute Engine default service account" in the "Service account" dropdown, and select "JSON" as the key type.
 >
-1. Clicking "Create" will download your credentials.
+4. Clicking "Create" will download your credentials.
 
 ### Commands used
 
